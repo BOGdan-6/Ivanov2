@@ -1,0 +1,39 @@
+﻿<Application x:Class="Ivanov2.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Ivanov2"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button" x:Key="MainButton">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Height" Value="24"/>
+            <Setter Property="Width" Value="80"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Background" Value="#FF008AFD"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="MainText">
+            <Setter Property="Margin" Value="16, 5"/>
+            <Setter Property="FontFamily" Value="Candara"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="MainTextBox">
+            <Setter Property="Margin" Value="16, 5"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Padding" Value="10, 0"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="AnswerTextBox">
+            <Setter Property="Margin" Value="16, 5"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Padding" Value="10, 0"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="VerticalScrollBarVisibility" Value="Hidden"/>
+        </Style>
+
+    </Application.Resources>
+</Application>
